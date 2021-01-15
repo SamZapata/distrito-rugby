@@ -1,6 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <BrowserRouter>
+          <div className="app">
+            <Main />
+          </div>
+        </BrowserRouter>
+      </Provider>
+    );
+  }
+}
+
 function App() {
   return (
     <div className="App">
