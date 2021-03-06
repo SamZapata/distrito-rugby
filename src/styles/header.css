@@ -1,0 +1,11 @@
+.header-wrap {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+  
+a.button {
+    cursor: pointer;
+}
